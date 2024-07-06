@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Asistencia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Asistencia</h1>
+        <form id="attendanceForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            
+            <label for="asistio">¿Asistió?</label>
+            <select id="asistio" name="asistio" required>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+            
+            <button type="submit">Guardar Asistencia</button>
+        </form>
+    </div>
+</body>
+</html>
